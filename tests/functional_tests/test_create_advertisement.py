@@ -160,10 +160,12 @@ class TestCreateAdvertisement:
 
 test_invalid_seller_id = (
     ("спецсимволов", "!@!#$@$#%#$@%"),
-    ("латинских букв", "PearBook Lite"),
-    ("пробела в начале", " Телефон"),
-    ("пробела в конце", "Телефон "),
-    ("точки в конце", "Приставка."),
+    ("латинских букв", "John"),
+    ("пустой строки", ""),
+    ("значения в типе данных string", "999"),
+    ("значения в типе данных boolean", True),
+    ("значения в типе данных array", [1000]),
+    ("значения в типе данных null", None),
 )
 
 test_invalid_data_title = (
@@ -260,19 +262,10 @@ class TestNegativeCreateAdvertisement:
             statistics=StatisticsSchema(likes=fake.likes(), viewCount=fake.view_count(), contacts=fake.contacts()),
         )
         response = get_advertisements_client.create_advertisement_api(request=request)
-        resp_data = CreateAdvertisementResponseSchema.model_validate_json(response.text)
+        resp_data = BadRequestResponseSchema.model_validate_json(response.text)
 
-        assert_status_code(response.status_code, HTTPStatus.OK)
-        assert_create_advertisement_response(resp_data)
-
+        assert_status_code(response.status_code, HTTPStatus.BAD_REQUEST)
         validate_json_schema(response.json(), resp_data.model_json_schema())
-
-        resp_get_advert = get_advertisements_client.get_advertisement_api(advertisement_id=resp_data.status[-36:])
-        get_advert_resp_data = GetAdvertisementResponseSchema.model_validate_json(resp_get_advert.text)
-
-        assert_get_advertisement_response(get_advert_resp_data, [request])
-
-        get_advertisements_client.delete_advertisement_api(advertisement_id=resp_data.status[-36:])
 
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.severity(Severity.NORMAL)
