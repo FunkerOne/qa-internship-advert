@@ -1,0 +1,10 @@
+curl -X 'POST' \
+  'https://qa-internship.avito.com/api/1/item' \
+  -H 'host: qa-internship.avito.com' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'content-length: 115' \
+  -H 'content-type: application/json' \
+  -d '{"sellerID":790022,"name":"Приставка.","price":9005,"statistics":{"likes":11,"viewCount":69,"contacts":1}}'

@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Отправить POST запрос на https://qa-internship.avito.com/api/1/item
+INFO     HTTP_LOGGER:event_hooks.py:36 Получен 200 OK с https://qa-internship.avito.com/api/1/item
+INFO     HTTP_LOGGER:event_hooks.py:27 Отправить GET запрос на https://qa-internship.avito.com/api/1/307523/item
+INFO     HTTP_LOGGER:event_hooks.py:36 Получен 200 OK с https://qa-internship.avito.com/api/1/307523/item
+INFO     BASE_ASSERTIONS:base.py:19 Ожидает HTTP статус код: 200
+INFO     COURSES_ASSERTIONS:advertisements.py:82 Проверка ответа на получение объявления
+INFO     BASE_ASSERTIONS:base.py:84 Ожидает, что длина root равняется 1
+INFO     COURSES_ASSERTIONS:advertisements.py:40 Проверка объявления
+INFO     BASE_ASSERTIONS:base.py:69 Ожидает что id не пустое
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что seller_id равно 307523
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что name равно Моё объявление 407
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что price равно 4263
+INFO     COURSES_ASSERTIONS:advertisements.py:99 Проверка статистики
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что likes равно 43
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что view_count равно 31
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что contacts равно 5
+INFO     BASE_ASSERTIONS:base.py:69 Ожидает что created_at не пустое
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Валидация JSON схемы
+INFO     HTTP_LOGGER:event_hooks.py:27 Отправить DELETE запрос на https://qa-internship.avito.com/api/2/item/6eda0f11-fcfd-4da6-bfd3-ce38d2ee7539
+INFO     HTTP_LOGGER:event_hooks.py:36 Получен 200 OK с https://qa-internship.avito.com/api/2/item/6eda0f11-fcfd-4da6-bfd3-ce38d2ee7539
