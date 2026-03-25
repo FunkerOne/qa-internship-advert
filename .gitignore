@@ -1,6 +1,5 @@
 .idea
 .env
 .DS_Store
-#/internal
 __pycache__
 .pytest_cache
