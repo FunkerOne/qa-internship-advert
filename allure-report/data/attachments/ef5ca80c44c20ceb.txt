@@ -1,0 +1,3 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:27 Отправить POST запрос на https://qa-internship.avito.com/api/1/item
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:36 Получен 400 Bad Request с https://qa-internship.avito.com/api/1/item
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Ожидает HTTP статус код: 200

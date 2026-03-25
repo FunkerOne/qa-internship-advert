@@ -1,0 +1,22 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:27 Отправить POST запрос на https://qa-internship.avito.com/api/1/item
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:36 Получен 200 OK с https://qa-internship.avito.com/api/1/item
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Ожидает HTTP статус код: 200
+[32mINFO    [0m COURSES_ASSERTIONS:advertisements.py:26 Проверка ответа создания объявления
+[32mINFO    [0m BASE_ASSERTIONS:base.py:69 Ожидает что status не пустое
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Валидация JSON схемы
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:27 Отправить GET запрос на https://qa-internship.avito.com/api/1/item/5f14810a-b02d-4288-9ec8-76338fa5eab1
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:36 Получен 200 OK с https://qa-internship.avito.com/api/1/item/5f14810a-b02d-4288-9ec8-76338fa5eab1
+[32mINFO    [0m COURSES_ASSERTIONS:advertisements.py:62 Проверка ответа на получение объявления
+[32mINFO    [0m BASE_ASSERTIONS:base.py:84 Ожидает, что длина root равняется 1
+[32mINFO    [0m COURSES_ASSERTIONS:advertisements.py:40 Проверка объявления
+[32mINFO    [0m BASE_ASSERTIONS:base.py:69 Ожидает что id не пустое
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Ожидает что seller_id равно 677597
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Ожидает что name равно Моё объявление 807
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Ожидает что price равно 1
+[32mINFO    [0m COURSES_ASSERTIONS:advertisements.py:99 Проверка статистики
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Ожидает что likes равно 40
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Ожидает что view_count равно 41
+[32mINFO    [0m BASE_ASSERTIONS:base.py:36 Ожидает что contacts равно 4
+[32mINFO    [0m BASE_ASSERTIONS:base.py:69 Ожидает что created_at не пустое
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:27 Отправить DELETE запрос на https://qa-internship.avito.com/api/2/item/5f14810a-b02d-4288-9ec8-76338fa5eab1
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:36 Получен 200 OK с https://qa-internship.avito.com/api/2/item/5f14810a-b02d-4288-9ec8-76338fa5eab1

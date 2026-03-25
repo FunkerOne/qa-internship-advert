@@ -1,0 +1,8 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:27 Отправить POST запрос на https://qa-internship.avito.com/api/1/item
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:36 Получен 200 OK с https://qa-internship.avito.com/api/1/item
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:27 Отправить GET запрос на https://qa-internship.avito.com/api/1/statistic/220408c6-6bae-4132-b46d-9cc97d1eb348
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:36 Получен 200 OK с https://qa-internship.avito.com/api/1/statistic/220408c6-6bae-4132-b46d-9cc97d1eb348
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Ожидает HTTP статус код: 200
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Валидация JSON схемы
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:27 Отправить DELETE запрос на https://qa-internship.avito.com/api/2/item/220408c6-6bae-4132-b46d-9cc97d1eb348
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:36 Получен 200 OK с https://qa-internship.avito.com/api/2/item/220408c6-6bae-4132-b46d-9cc97d1eb348

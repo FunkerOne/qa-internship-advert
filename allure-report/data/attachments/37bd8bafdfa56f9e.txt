@@ -1,0 +1,2 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:27 Отправить GET запрос на https://qa-internship.avito.com/api/1/ddfgfghjgydf
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:36 Получен 404 Not Found с https://qa-internship.avito.com/api/1/ddfgfghjgydf

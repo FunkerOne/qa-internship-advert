@@ -1,0 +1,4 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:27 Отправить GET запрос на https://qa-internship.avito.com/api/1/item/550e8400-e29b-41d4-a716-446655440000
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:36 Получен 404 Not Found с https://qa-internship.avito.com/api/1/item/550e8400-e29b-41d4-a716-446655440000
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Ожидает HTTP статус код: 404
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Валидация JSON схемы
