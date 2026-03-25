@@ -1,0 +1,10 @@
+curl -X 'POST' \
+  'https://qa-internship.avito.com/api/1/item' \
+  -H 'host: qa-internship.avito.com' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'content-length: 152' \
+  -H 'content-type: application/json' \
+  -d '{"sellerID":522764,"name":"Моё объявление 381","price":2384,"statistics":{"likes":22,"viewCount":48,"contacts":"東京は美しいです"}}'

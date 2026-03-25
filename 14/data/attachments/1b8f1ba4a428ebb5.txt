@@ -1,0 +1,14 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Отправить POST запрос на https://qa-internship.avito.com/api/1/item
+INFO     HTTP_LOGGER:event_hooks.py:36 Получен 200 OK с https://qa-internship.avito.com/api/1/item
+INFO     HTTP_LOGGER:event_hooks.py:27 Отправить GET запрос на https://qa-internship.avito.com/api/1/statistic/9ab0238f-2b6c-4bdf-8588-ce3104fb1953
+INFO     HTTP_LOGGER:event_hooks.py:36 Получен 200 OK с https://qa-internship.avito.com/api/1/statistic/9ab0238f-2b6c-4bdf-8588-ce3104fb1953
+INFO     BASE_ASSERTIONS:base.py:19 Ожидает HTTP статус код: 200
+INFO     COURSES_ASSERTIONS:advertisements.py:118 Проверка ответа на получение статистики
+INFO     BASE_ASSERTIONS:base.py:84 Ожидает, что длина root равняется 1
+INFO     COURSES_ASSERTIONS:advertisements.py:99 Проверка статистики
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что likes равно 23
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что view_count равно 80
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что contacts равно 4
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Валидация JSON схемы
+INFO     HTTP_LOGGER:event_hooks.py:27 Отправить DELETE запрос на https://qa-internship.avito.com/api/2/item/9ab0238f-2b6c-4bdf-8588-ce3104fb1953
+INFO     HTTP_LOGGER:event_hooks.py:36 Получен 200 OK с https://qa-internship.avito.com/api/2/item/9ab0238f-2b6c-4bdf-8588-ce3104fb1953
