@@ -1,0 +1,50 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Отправить POST запрос на https://qa-internship.avito.com/api/1/item
+INFO     HTTP_LOGGER:event_hooks.py:36 Получен 200 OK с https://qa-internship.avito.com/api/1/item
+INFO     HTTP_LOGGER:event_hooks.py:27 Отправить GET запрос на https://qa-internship.avito.com/api/1/item/147cf55b-e14a-4d65-aafb-21e5fc337ae6
+INFO     HTTP_LOGGER:event_hooks.py:36 Получен 200 OK с https://qa-internship.avito.com/api/1/item/147cf55b-e14a-4d65-aafb-21e5fc337ae6
+INFO     BASE_ASSERTIONS:base.py:19 Ожидает HTTP статус код: 200
+INFO     COURSES_ASSERTIONS:advertisements.py:62 Проверка ответа на получение объявления
+INFO     BASE_ASSERTIONS:base.py:84 Ожидает, что длина root равняется 1
+INFO     COURSES_ASSERTIONS:advertisements.py:40 Проверка объявления
+INFO     BASE_ASSERTIONS:base.py:69 Ожидает что id не пустое
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что seller_id равно 871636
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что name равно Моё объявление 29
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что price равно 9223
+INFO     COURSES_ASSERTIONS:advertisements.py:99 Проверка статистики
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что likes равно 42
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что view_count равно 67
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что contacts равно 11
+INFO     BASE_ASSERTIONS:base.py:69 Ожидает что created_at не пустое
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Валидация JSON схемы
+INFO     HTTP_LOGGER:event_hooks.py:27 Отправить GET запрос на https://qa-internship.avito.com/api/1/871636/item
+INFO     HTTP_LOGGER:event_hooks.py:36 Получен 200 OK с https://qa-internship.avito.com/api/1/871636/item
+INFO     BASE_ASSERTIONS:base.py:19 Ожидает HTTP статус код: 200
+INFO     COURSES_ASSERTIONS:advertisements.py:82 Проверка ответа на получение объявления
+INFO     BASE_ASSERTIONS:base.py:84 Ожидает, что длина root равняется 1
+INFO     COURSES_ASSERTIONS:advertisements.py:40 Проверка объявления
+INFO     BASE_ASSERTIONS:base.py:69 Ожидает что id не пустое
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что seller_id равно 871636
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что name равно Моё объявление 29
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что price равно 9223
+INFO     COURSES_ASSERTIONS:advertisements.py:99 Проверка статистики
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что likes равно 42
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что view_count равно 67
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что contacts равно 11
+INFO     BASE_ASSERTIONS:base.py:69 Ожидает что created_at не пустое
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Валидация JSON схемы
+INFO     HTTP_LOGGER:event_hooks.py:27 Отправить GET запрос на https://qa-internship.avito.com/api/1/statistic/147cf55b-e14a-4d65-aafb-21e5fc337ae6
+INFO     HTTP_LOGGER:event_hooks.py:36 Получен 200 OK с https://qa-internship.avito.com/api/1/statistic/147cf55b-e14a-4d65-aafb-21e5fc337ae6
+INFO     BASE_ASSERTIONS:base.py:19 Ожидает HTTP статус код: 200
+INFO     COURSES_ASSERTIONS:advertisements.py:118 Проверка ответа на получение статистики
+INFO     BASE_ASSERTIONS:base.py:84 Ожидает, что длина root равняется 1
+INFO     COURSES_ASSERTIONS:advertisements.py:99 Проверка статистики
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что likes равно 42
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что view_count равно 67
+INFO     BASE_ASSERTIONS:base.py:36 Ожидает что contacts равно 11
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Валидация JSON схемы
+INFO     HTTP_LOGGER:event_hooks.py:27 Отправить DELETE запрос на https://qa-internship.avito.com/api/2/item/147cf55b-e14a-4d65-aafb-21e5fc337ae6
+INFO     HTTP_LOGGER:event_hooks.py:36 Получен 200 OK с https://qa-internship.avito.com/api/2/item/147cf55b-e14a-4d65-aafb-21e5fc337ae6
+INFO     HTTP_LOGGER:event_hooks.py:27 Отправить GET запрос на https://qa-internship.avito.com/api/1/item/147cf55b-e14a-4d65-aafb-21e5fc337ae6
+INFO     HTTP_LOGGER:event_hooks.py:36 Получен 404 Not Found с https://qa-internship.avito.com/api/1/item/147cf55b-e14a-4d65-aafb-21e5fc337ae6
+INFO     BASE_ASSERTIONS:base.py:19 Ожидает HTTP статус код: 404
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Валидация JSON схемы
