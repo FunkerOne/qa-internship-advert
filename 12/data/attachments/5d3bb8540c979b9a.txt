@@ -1,0 +1,7 @@
+curl -X 'DELETE' \
+  'https://qa-internship.avito.com/api/2/item/c941e83a-a59a-43a7-a5b6-d6009fdd0a07' \
+  -H 'host: qa-internship.avito.com' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1'

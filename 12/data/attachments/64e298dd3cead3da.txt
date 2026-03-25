@@ -1,0 +1,7 @@
+curl -X 'GET' \
+  'https://qa-internship.avito.com/api/1/item/0801c265-d2eb-4983-85d9-c81048f984ce' \
+  -H 'host: qa-internship.avito.com' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1'

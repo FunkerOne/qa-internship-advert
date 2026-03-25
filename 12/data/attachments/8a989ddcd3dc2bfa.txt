@@ -1,0 +1,2 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Отправить GET запрос на https://qa-internship.avito.com/api/1//item
+INFO     HTTP_LOGGER:event_hooks.py:36 Получен 405 Method Not Allowed с https://qa-internship.avito.com/api/1//item
