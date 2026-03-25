@@ -1,0 +1,53 @@
+# ────────────── Ruff: базовые параметры проекта ──────────────
+[tool.ruff]
+line-length    = 120             # длина строки
+target-version = "py313"         # для pyupgrade + подсказок
+exclude = [                      # каталоги, которые Ruff пропускает
+    ".venv", "venv",               # виртуалки
+    "__pycache__", ".pytest_cache", "get-pip.py"
+]
+
+# ────────────── Lint (правила) ──────────────
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle (ошибки синтаксиса/стиля)
+    "F",   # pyflakes
+    "B",   # bugbear – типичные баг-паттерны
+    "I",   # isort – порядок импортов
+    "C",   # comprehensions – оптимизация генераторов
+    "S",   # bandit – безопасность
+    "PT",  # flake8-pytest-style – лучшие практики pytest
+    "SIM", # flake8-simplify
+    "RUF", # собственные правила Ruff
+    "Q"    # кавычки
+]
+extend-select = ["E501"]
+fixable = ["ALL"]
+ignore = [
+    # кириллица ок
+    "RUF001","RUF002","RUF003",
+    # импорты
+    "I001",
+    # сетевые оговорки (timeouts / verify)
+    "S113","S501",
+    # переменные-теневые допустимы
+    "A001","A002",
+    "PT003", "S105", "S106", "S108", "B006", "S507", "C408", "S311", "S101", "PT018",
+    "F403", "S602", "F405", "PT006", "B007"
+]
+
+# тестам разрешаем
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = [
+    "S101",    # assert допустим в тестах[45]
+    "ARG",     # фикстуры могут не использовать аргумент[40]
+    "FBT",     # bool как позиционный параметр в parametrize[31]
+    "PLR2004", # числа часто встречаются в expected
+    "S106"     # хардкод паролей допустим в тестах
+]
+
+# ────────────── Formatter ──────────────
+[tool.ruff.format]
+quote-style  = "double"      # "string"
+indent-style = "space"       # 4 пробела
+line-ending  = "auto"        # CRLF vs LF — как у системы
