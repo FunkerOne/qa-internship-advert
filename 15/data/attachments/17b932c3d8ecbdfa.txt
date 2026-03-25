@@ -1,0 +1,10 @@
+curl -X 'POST' \
+  'https://qa-internship.avito.com/api/1/item' \
+  -H 'host: qa-internship.avito.com' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'content-length: 151' \
+  -H 'content-type: application/json' \
+  -d '{"sellerID":285483,"name":"Моё объявление 626","price":4861,"statistics":{"likes":10000000000000000000000000,"viewCount":56,"contacts":9}}'
